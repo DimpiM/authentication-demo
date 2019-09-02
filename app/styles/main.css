@@ -1,0 +1,55 @@
+body {
+    background-color: #01FB51;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold; 
+    font-size: 2rem;
+}
+
+button {
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+div.header > h2 {
+    font-size: 3rem;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+body > div.section {
+    background-color: #00F6FF;
+    min-width: 40rem;
+    border: 0.3rem solid;
+    border-radius: 1rem;
+    padding: 1rem 0;
+}
+
+body > div > * {
+    margin: 0.2rem 0;
+}
+
+.hidden {
+    display: none
+}
+.success {
+    color: #229000;
+}
+.failed {
+    color: #ff0000;
+}

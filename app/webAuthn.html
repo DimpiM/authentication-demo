@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Authenticators</title>
+    <script src="app/scripts/base64url.js"></script>
+    <script type="module" src="app/scripts/eventsWebAuthn.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/styles/main.css">
+</head>
+<body>
+    <div class="header">
+        <h2>WebAuthn</h2>
+    </div>
+
+    <div class="section webauthn-register">
+        <label>Registration</label>
+        <div>
+            <span>User: </span>
+            <input type="text" id="webauthn-register-name"/>
+        </div>
+        <div>
+            <button type="button" id="webauthn-register-get-credman">Get via CredMan</button>
+            <button type="button" id="webauthn-register">Register</button>
+        </div>
+    </div>
+
+    <div class="section webauthn-login">
+        <label>Login</label>
+        <div>
+            <span>User: </span>
+            <input type="text" id="webauthn-login-name"/>
+        </div>
+        <div>
+            <button type="button" id="webauthn-login-get-credman">Get via CredMan</button>
+            <button type="button" id="webauthn-login">Login</button>
+        </div>
+        <label id="login-verfied" class="hidden">Erfolgreich angemeldet</label>
+    </div>
+</body>
+</html>

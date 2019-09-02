@@ -1,0 +1,29 @@
+{
+    "name": "authenticattors",
+    "version": "1.0.0",
+    "description": "A list of various authentication methods",
+    "main": "index.js",
+    "scripts": {
+        "inspectX": "node --inspect-brk app.js",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "Martin Dimperl",
+    "license": "ISC",
+    "dependencies": {
+        "@fidm/x509": "^1.2.1",
+        "base64-arraybuffer": "^0.2.0",
+        "base64url": "^3.0.1",
+        "cbor": "^4.2.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.4",
+        "cookie-session": "^1.3.3",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "https": "^1.0.0",
+        "iso-3166-1": "^1.1.0",
+        "qrcode": "^1.4.1",
+        "spdy": "^4.0.0",
+        "speakeasy": "^2.0.0"
+    }
+}
